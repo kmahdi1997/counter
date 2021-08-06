@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.js">
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
-<body>
-    
+
+<body class="bg-light">
+    <div class="container-fluied">
+        <main class="d-flex justify-content-center align-items-center text-center">
+            <div class="content p-4">
+                <h1 class="mb-5">Counter</h1>
+                <span class="fs-1" id="value">0</span>
+                <div class="buttons-group mt-5">
+                    <button class="btn btn-outline-dark decrease mx-2">DECREASE</button>
+                    <button class="btn btn-outline-dark reset mx-2">RESEAT</button>
+                    <button class="btn btn-outline-dark increase mx-2">INCREASE</button>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
+
 </html>
